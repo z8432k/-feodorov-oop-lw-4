@@ -26,6 +26,10 @@ int main(int argc, char** argv) {
 
     cout << static_cast<string>(composition);
 
+    composition.set('g', 4);
+
+    cout << static_cast<string>(composition);
+
     exit(EXIT_SUCCESS);
 }
 
